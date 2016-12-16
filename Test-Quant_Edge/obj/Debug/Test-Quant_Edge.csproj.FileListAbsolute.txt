@@ -30,6 +30,5 @@ E:\Project\code\Test-Quant_Edge\Test-Quant_Edge\bin\Microsoft.AI.WindowsServer.x
 E:\Project\code\Test-Quant_Edge\Test-Quant_Edge\bin\Microsoft.ApplicationInsights.xml
 E:\Project\code\Test-Quant_Edge\Test-Quant_Edge\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Project\code\Test-Quant_Edge\Test-Quant_Edge\bin\Newtonsoft.Json.xml
-E:\Project\code\Test-Quant_Edge\Test-Quant_Edge\obj\Debug\Test-Quant_Edge.csprojResolveAssemblyReference.cache
 E:\Project\code\Test-Quant_Edge\Test-Quant_Edge\obj\Debug\Test-Quant_Edge.dll
 E:\Project\code\Test-Quant_Edge\Test-Quant_Edge\obj\Debug\Test-Quant_Edge.pdb

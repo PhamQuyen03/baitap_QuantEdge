@@ -113,20 +113,21 @@
             setInterval(random, 1000);
             function random() {
                 res.data.forEach(function (dt) {
-                    var rate = Math.floor(Math.random() * (30 - (-30) + 1) + (-30)) / 1000;
-                    var valueChangeSell = (parseFloat(dt.sell) * rate) + parseFloat(dt.sell);
-                    var valueChangeBuy = (parseFloat(dt.buy) * rate) + parseFloat(dt.buy);
+                    var rateSell = Math.floor(Math.random() * (30 - (-30) + 1) + (-30)) / 1000;
+                    var rateBuy = Math.floor(Math.random() * (30 - (-30) + 1) + (-30)) / 1000;
+                    var valueChangeSell = (parseFloat(dt.sell) * rateSell) + parseFloat(dt.sell);
+                    var valueChangeBuy = (parseFloat(dt.buy) * rateBuy) + parseFloat(dt.buy);
                     if (valueChangeSell > valueChangeBuy)
                     {
-                        dt.change = rate;
+                        dt.change = rateSell;
                         dt.sell = valueChangeSell.toFixed(4);
                         dt.buy = valueChangeBuy.toFixed(4);
                         if (dt.sell > dt.high)
                         {
                             dt.high = dt.sell;
                         }
-                        if (dt.sell < dt.low || dt.low == 0) {
-                            dt.low = dt.sell;
+                        if (dt.buy < dt.low || dt.low == 0) {
+                            dt.low = dt.buy;
                         }
                     }
                     
