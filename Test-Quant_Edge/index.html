@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html >
+<html ng-app="app">
+<head>
+    <title></title>
+    
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        .rag-red {
+            color: red;
+        }
+
+        .rag-blue {
+            color: blue;
+        }
+
+        .rag-amber {
+            color: lightsalmon;
+        }
+
+        .rag-red-outer .rag-element {
+            color : lightcoral;
+        }
+
+        .rag-green-outer .rag-element {
+            color: lightgreen;
+        }
+
+        .rag-amber-outer .rag-element {
+            color: lightsalmon;
+        }
+    </style>
+
+</head>
+<body ng-controller="controllerTest">
+    
+    <div ag-grid="gridOptions" class="ag-blue" style="height: 351px; width: 94.6%; margin-left: 3%; margin-top: 3%;"></div>
+
+    <script src="Scripts/ag-gird.js"></script>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/app.js"></script>
+    <script src="Scripts/controller.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+</body>
+</html>

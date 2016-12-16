@@ -1,0 +1,75 @@
+﻿[
+  {
+    "currency": "USD/EUR",
+    "sell": 0.9626,
+    "buy": 0.9292,
+    "icon":  "a",
+    "change": 0,
+    "high": 0,
+    "low":  0
+  },
+  {
+    "currency": "USD/AUD",
+    "sell": 1.2345,
+    "buy": 1.0770,
+    "icon": "a",
+    "change": 0,
+    "high": 0,
+    "low": 0
+  },
+  {
+    "currency": "USD/BGN",
+    "sell": 1.7962,
+    "buy": 1.6292,
+    "icon": "a",
+    "change": 0,
+    "high": 0,
+    "low": 0
+  },
+  {
+    "currency": "USD/CAD",
+    "sell": 1.7962,
+    "buy": 1.4292,
+    "icon": "a",
+    "change": 0,
+    "high": 0,
+    "low": 0
+  },
+  {
+    "currency": "USD/CHF",
+    "sell": 1.0962,
+    "buy": 0.9292,
+    "icon": "a",
+    "change": 0,
+    "high": 0,
+    "low": 0
+  },
+  {
+    "currency": "USD/GBP",
+    "sell": 0.8962,
+    "buy": 0.8292,
+    "icon": "a",
+    "change": 0,
+    "high": 0,
+    "low": 0
+  },
+  {
+    "currency": "USD/JPY",
+    "sell": 118.0962,
+    "buy": 117.7292,
+    "icon": "a",
+    "change": 0,
+    "high": 0,
+    "low": 0
+  },
+  {
+    "currency": "USD/RUB",
+    "sell": 61.7962,
+    "buy": 60.7292,
+    "icon":  "a",
+    "change": 0,
+    "high": 0,
+    "low":  0
+  }
+
+]
