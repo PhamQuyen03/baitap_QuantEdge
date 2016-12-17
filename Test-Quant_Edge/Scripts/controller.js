@@ -26,7 +26,7 @@
              cellRenderer: iconCellRendererFunc
          },
          {
-             headerName: "Change", field: "change",
+             headerName: "Change (%)", field: "change",
              cellStyle: changeRowColor
          },
          {
