@@ -6,7 +6,7 @@
         .controller('controllerTest', function ($scope, $http, $location) {
             var columnDefs = [
          {
-             headerName: "Currency", field: "currency", width: 90, height: 40,
+             headerName: "Currency", field: "currency", width: 90,
              cellStyle: { "text-align": "center", "font-weight": "bold" }
          },
          {
@@ -21,7 +21,7 @@
 
          },
          {
-             headerName: "", field: "icon",
+             headerName: "", field: "icon", width: 60,
              cellStyle: { "text-align": "center", "font-weight": "bold" },
              cellRenderer: iconCellRendererFunc
          },
@@ -63,6 +63,7 @@
                 }
                 
             }
+
             function iconCellRendererFunc(params) {
                 if (params.data.change < 0) {
                     return '<span style="color: red; font-weight: bold" class="glyphicon glyphicon-triangle-bottom"></span>';
